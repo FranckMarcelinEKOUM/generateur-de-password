@@ -1,3 +1,11 @@
+"""
+Dans ce script utilise Tkinter pour présenter un formulaire interactif. Dans ce formulaire, 
+l'utilisateur peut sélectionner s'il possède un animal (via des boutons radio);
+dans le cas où il répond "Oui", le champ pour entrer le nom de l'animal devient actif.
+Ensuite, une fois que toutes les informations sont remplies,
+le script génère un mot de passe de manière aléatoire lorsqu'on clique sur le bouton générer un mot de passe
+et sauvegarde ce mot de passe dans un fichier texte choisi à l'aide d'une boîte de dialogue
+"""
 import tkinter as tk
 from tkinter import filedialog, scrolledtext
 import itertools
